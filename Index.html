@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newspaper Landing Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <hedder>
+        <h1>The Soundwave Journal</h1>
+        <nav>
+            <div class="hamburger">☰</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="article.html">Article</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </hedder>
+
+    <main>
+        <section class="featured-article">
+            <h1>Featured Article</h1>
+            <!--Article Content-->
+            <h2>Paramore Wins Big at the 2023 Grammy Awards: A Milestone for Rock Music.</h2>
+            <p>Paramore made history at the 2023 Grammy Awards, becoming the first female-fronted rock band to win 'Best Rock Album' award for "This Is Why".</p>
+            <img src="images/Paramore-preformance.webp" alt="Paramore Preforming at the This Is Why tour (2023)" width="950px">
+        </section>
+        <section class="latest-news">
+            <h1>Latest News</h1>
+            <h2>Chappell Roan: The Pop Phenom Shattering Barriers and Redefining Fame</h2>
+            <p>Chappell Roan has quickly risen to fame, captivating audiences with her infectious pop sound and vibrant performances.</p>
+            <img src="images/Chappell-Roan.webp" alt="Chappell Roan Prefornimg at NYC Gov Ball (2024)" width="600px" height="500px">
+            <!--News Items-->
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact us at email@example.com</p>
+    </footer>
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('active');
+        })
+    </script>
+</body>
+</html>
